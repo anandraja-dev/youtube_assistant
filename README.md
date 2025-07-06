@@ -9,7 +9,7 @@ To run this application, you need to have Python installed on your system.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/AIAce-007/youtube-assistant.git
+https://github.com/anandraja-dev/youtube_assistant.git
 cd youtube-assistant
 ```
 
