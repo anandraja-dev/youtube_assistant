@@ -10,7 +10,7 @@ st.markdown(f"""
 <style>
     [data-testid="stSidebar"] {{
         background-color: #f0f2f6;
-        padding: 20px;
+        padding: 10px;
     }}
     [data-testid="stSidebarNav"] {{
         display: none;
@@ -40,8 +40,8 @@ if query and youtube_url:
         <div style="
             border: 1px solid #e6e6e6;
             border-radius: 5px;
-            padding: 20px;
-            margin-bottom: 20px;
+            padding: 10px;
+            margin-bottom: 10px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         ">
             {response}
