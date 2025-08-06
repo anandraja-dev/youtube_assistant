@@ -1,31 +1,27 @@
 """
 # 🎬 Local YouTube Assistant
 
-A powerful YouTube video analysis tool that runs **100% locally** using Ollama models. Ask questions about any YouTube video and get intelligent answers based on the video's transcript - completely private and free!
+This is a Streamlit application that allows you to ask questions about a YouTube video and get answers based on the video's transcript.
 
-## 🌟 Features
+## Usage
 
-- ✅ **100% Local Processing** - No data sent to external APIs
-- 🤖 **Multiple Model Support** - Works with your Ollama models
-- 🌐 **Multi-language Transcripts** - English, Tamil, Hindi, Spanish support  
-- 🔒 **Complete Privacy** - All processing happens on your machine
-- 💰 **Zero API Costs** - No usage fees or rate limits
-- ⚡ **Optimized for Your Setup** - Works great with 32GB RAM
+To run this application, you need to have Python installed on your system.
 
-## 🚀 Quick Start
+### 1. Clone the repository
 
-### Prerequisites
-- Python 3.9+
-- Ollama installed and running
-- Your models: `gpt-oss:20b` and `llama3.2-vision:11b`
+```bash
+git clone https://github.com/anandraja-dev/youtube-assistant.git
+cd youtube-assistant
+```
 
-### Installation
+### 2. Create a virtual environment and activate it
 
-1. **Clone/Download the project**
-   ```bash
-   git clone <repository-url>
-   cd youtube-assistant-local
-   ```
+**On macOS and Linux:**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
 2. **Create virtual environment**
    ```bash
